@@ -32,7 +32,7 @@
 		}
 
 		.navMenu a {
-			color: #272727;
+			color: #f9989b;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -44,7 +44,7 @@
 		}
 
 		.border {
-			border: 2px solid #facad2;
+			border: 4px solid #f9989b;
 
 		}
 
@@ -60,8 +60,9 @@
 	<nav class="navMenu  border">
 		<a id="morning" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-mug-hot"></i>   Morning</a>
 		<a id="planner" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i>   Planner</a>
-		<a id="resources" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-days"></i>   Resources</a>
 		<a id="team" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-pen-nib"></i>   Team</a>
+		<a id="resources" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-days"></i>   Resources</a>
+		
 
 
 
@@ -81,11 +82,12 @@
 			if (id == 'morning')
 				window.open("https://www.notion.so/Good-morning-36e7dcbf06a04809898091fba2d91cf3", '_blank').focus();
 			else if (id == "planner")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "resources")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://www.notion.so/Planner-427a4bfa914d4e0eb84d44101bdddb10", '_blank').focus();
 			else if (id == "team")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://www.notion.so/Team-8c2a424046604dd3988fd5f968c3ba3d", '_blank').focus();
+			else if (id == "resources")
+				window.open("https://www.notion.so/Resources-0839953809814761b3a93d4e79f7352c", '_blank').focus();
+			
 
 		}
 	</script>
